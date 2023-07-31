@@ -1,0 +1,19 @@
+*{
+     background-color:#f1f0f0;
+}
+
+h1{
+     text-align: center;
+     color: #3838e3;
+}
+
+.img-container{
+     background-size: cover;
+     text-align: center;
+     justify-content: center;
+}
+.img-container img{
+     width: 400px;
+     height: 400px;
+
+}

@@ -1,0 +1,57 @@
+
+h1{
+     text-align: center;
+     background-color: gray;
+
+}
+
+.time-table{
+     display: grid;
+     grid-template-columns: repeat(8,1fr);
+     border: 3px solid black;
+     padding: 10px;
+     background-color: #bda3fa;
+}
+
+div{
+     padding: 20px 5px;
+     border: 2px dotted black;
+     text-align: center;
+     background-color: #03c6c7;
+}
+
+.row-1{
+     padding: 40px 10px;
+     font-weight: bold;
+     font-size: larger;
+     background-color: #ff6666;
+
+}
+.text-bold{
+     font-weight: bold;
+     background-color: #8d3daf;
+}
+
+.col-end{
+     grid-column-start: 7;
+     grid-column-end: 9;
+     background-color: #cad5e2;
+}
+
+.lunch{
+     border: 0px;
+     font-weight: bold;
+     font-size: larger;
+     background-color: #edc126;
+}
+.col-start{
+     grid-column-start: 2;
+     grid-column-end: 4;
+     background-color: #cad5e2;
+}
+
+.text-green{
+     font-weight: bold;
+     font-size: larger;
+     background-color: #1faa59;
+}
